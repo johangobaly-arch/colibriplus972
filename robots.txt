@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://colibriplus972.com/sitemap.xml

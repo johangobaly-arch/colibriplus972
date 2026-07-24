@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Colibri Plus, taxi au Marin en Martinique. Réservation par téléphone, WhatsApp ou formulaire.">
+  <meta name="theme-color" content="#003d36">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Colibri Plus | Taxi au Marin, Martinique">
+  <meta property="og:description" content="Votre chauffeur de confiance au Marin et dans toute la Martinique.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://colibriplus972.com/">
+  <link rel="canonical" href="https://colibriplus972.com/">
+  <link rel="icon" href="assets/images/logo-colibri-plus.png">
+  <title>Colibri Plus | Taxi au Marin, Martinique</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main>
+    <section class="site-canvas" aria-label="Site Colibri Plus">
+      <img class="site-image" src="assets/images/visuel-final-sans-doublon.png" alt="Colibri Plus, taxi au Marin en Martinique">
+
+      <nav aria-label="Navigation principale">
+        <button class="zone nav-home" type="button" data-panel="home-panel" aria-label="Accueil"></button>
+        <button class="zone nav-services" type="button" data-panel="services-panel" aria-label="Nos services"></button>
+        <button class="zone nav-prices" type="button" data-panel="prices-panel" aria-label="Tarifs"></button>
+        <button class="zone nav-about" type="button" data-panel="about-panel" aria-label="À propos"></button>
+        <button class="zone nav-booking" type="button" data-focus="booking-form" aria-label="Réservation"></button>
+        <button class="zone nav-contact" type="button" data-panel="contact-panel" aria-label="Contact"></button>
+      </nav>
+
+      <a class="zone top-phone" href="tel:+596696041050" aria-label="Appeler le +596 696 04 10 50"></a>
+      <a class="zone call-button" href="tel:+596696041050" aria-label="Appeler Colibri Plus"></a>
+      <a class="zone whatsapp-button"
+         href="https://wa.me/596696041050?text=Bonjour%20Colibri%20Plus%2C%20je%20souhaite%20r%C3%A9server%20un%20trajet."
+         target="_blank" rel="noopener" aria-label="Contacter Colibri Plus sur WhatsApp"></a>
+      <a class="zone maps-button"
+         href="https://www.google.com/maps/search/?api=1&query=Le+Marin%2C+Martinique"
+         target="_blank" rel="noopener" aria-label="Voir Le Marin sur Google Maps"></a>
+      <a class="zone footer-phone" href="tel:+596696041050" aria-label="Téléphone"></a>
+      <a class="zone footer-email" href="mailto:colibriplus.972@gmail.com" aria-label="E-mail"></a>
+
+      <form id="booking-form"
+            action="https://formsubmit.co/colibriplus.972@gmail.com"
+            method="POST"
+            target="mail-frame">
+        <input type="hidden" name="_subject" value="Nouvelle demande de réservation - Colibri Plus">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_autoresponse" value="Bonjour, votre demande Colibri Plus a bien été reçue. Nous vous répondrons rapidement.">
+        <input type="hidden" name="Résumé" id="summary">
+        <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+
+        <input class="field name" name="Nom" placeholder="Nom complet" required>
+        <input class="field phone" name="Téléphone" type="tel" placeholder="Téléphone" required>
+        <input class="field email" name="Email" type="email" placeholder="Email" required>
+        <select class="field service" name="Service" required>
+          <option value="">Type de service</option>
+          <option>Transfert aéroport / port</option>
+          <option>Course</option>
+          <option>Événement</option>
+          <option>Mise à disposition</option>
+          <option>Découverte de l'île</option>
+          <option>Autre</option>
+        </select>
+        <input class="field date" name="Date et heure" type="datetime-local" required>
+        <textarea class="field message" name="Message" placeholder="Votre message"></textarea>
+        <button class="submit-button" type="submit">ENVOYER MA DEMANDE</button>
+        <p class="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="mobile-site" id="mobile-home">
+      <header class="mobile-hero">
+        <div class="mobile-top">
+          <strong>COLIBRI PLUS</strong>
+          <a href="tel:+596696041050">☎ +596 696 04 10 50</a>
+        </div>
+        <div class="mobile-copy">
+          <p>TAXI • LE MARIN • MARTINIQUE</p>
+          <h1>COLIBRI <em>PLUS</em></h1>
+          <h2>Votre chauffeur de confiance</h2>
+          <p>Transferts, courses, événements et déplacements dans toute la Martinique.</p>
+          <div class="mobile-actions">
+            <a href="tel:+596696041050">APPELER</a>
+            <a href="https://wa.me/596696041050?text=Bonjour%20Colibri%20Plus%2C%20je%20souhaite%20r%C3%A9server%20un%20trajet." target="_blank" rel="noopener">WHATSAPP</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="mobile-section">
+        <p class="label">NOS SERVICES</p>
+        <h2>Des prestations adaptées à tous vos besoins</h2>
+        <div class="mobile-services">
+          <article>✈<span>Transferts aéroport / port</span></article>
+          <article>🧳<span>Courses</span></article>
+          <article>▣<span>Événements</span></article>
+          <article>●<span>À votre service</span></article>
+          <article>⌖<span>Découverte de l'île</span></article>
+        </div>
+      </section>
+
+      <section class="mobile-section alt">
+        <p class="label">TARIFS</p>
+        <h2>Tarifs sur devis</h2>
+        <p>Contactez-nous pour une estimation personnalisée.</p>
+      </section>
+
+      <section class="mobile-section booking-mobile">
+        <p class="label">RÉSERVATION EN LIGNE</p>
+        <h2>Envoyer une demande</h2>
+        <form id="mobile-form"
+              action="https://formsubmit.co/colibriplus.972@gmail.com"
+              method="POST"
+              target="mail-frame">
+          <input type="hidden" name="_subject" value="Nouvelle demande de réservation - Colibri Plus">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="Résumé" class="mobile-summary">
+          <input name="Nom" placeholder="Nom complet" required>
+          <input name="Téléphone" type="tel" placeholder="Téléphone" required>
+          <input name="Email" type="email" placeholder="Email" required>
+          <select name="Service" required>
+            <option value="">Type de service</option>
+            <option>Transfert aéroport / port</option>
+            <option>Course</option>
+            <option>Événement</option>
+            <option>Mise à disposition</option>
+            <option>Découverte de l'île</option>
+            <option>Autre</option>
+          </select>
+          <input name="Date et heure" type="datetime-local" required>
+          <textarea name="Message" placeholder="Votre message"></textarea>
+          <button type="submit">ENVOYER MA DEMANDE</button>
+          <p class="mobile-status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <footer>
+        <a href="tel:+596696041050">☎ +596 696 04 10 50</a>
+        <a href="mailto:colibriplus.972@gmail.com">✉ colibriplus.972@gmail.com</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Le+Marin%2C+Martinique" target="_blank" rel="noopener">⌖ Le Marin, Martinique</a>
+      </footer>
+    </section>
+
+    <div class="info-panel" id="home-panel" hidden>
+      <div class="panel-card"><button class="close-panel" type="button">×</button><h2>Colibri Plus</h2><p>Votre chauffeur de confiance au Marin et dans toute la Martinique.</p></div>
+    </div>
+    <div class="info-panel" id="services-panel" hidden>
+      <div class="panel-card"><button class="close-panel" type="button">×</button><h2>Nos services</h2><ul><li>Transferts aéroport / port</li><li>Courses</li><li>Événements</li><li>Mise à disposition</li><li>Découverte de l'île</li></ul></div>
+    </div>
+    <div class="info-panel" id="prices-panel" hidden>
+      <div class="panel-card"><button class="close-panel" type="button">×</button><h2>Tarifs</h2><p>Tarifs sur devis.</p></div>
+    </div>
+    <div class="info-panel" id="about-panel" hidden>
+      <div class="panel-card"><button class="close-panel" type="button">×</button><h2>À propos</h2><p>Colibri Plus, chauffeur de confiance au Marin et dans toute la Martinique.</p></div>
+    </div>
+    <div class="info-panel" id="contact-panel" hidden>
+      <div class="panel-card"><button class="close-panel" type="button">×</button><h2>Contact</h2><p><a href="tel:+596696041050">+596 696 04 10 50</a></p><p><a href="mailto:colibriplus.972@gmail.com">colibriplus.972@gmail.com</a></p><p><a href="https://www.google.com/maps/search/?api=1&query=Le+Marin%2C+Martinique" target="_blank" rel="noopener">Le Marin, Martinique</a></p></div>
+    </div>
+
+    <iframe name="mail-frame" class="mail-frame" title="Envoi du formulaire"></iframe>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
